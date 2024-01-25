@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(pexels-no-name-66997.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.box {
+  height: auto;
+  width: 35rem;
+  background-color: white;
+  border-radius: 1rem;
+  backdrop-filter: blur(4rem);
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.input input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  width: 60%;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #ebecef;
+}
+.input button {
+  width: 20%;
+  height: 36px;
+  border: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #000000;
+  color: white;
+}
+.input button:hover {
+  opacity: 60%;
+  cursor: pointer;
+}
+.input button:active {
+  opacity: 70%;
+}
+.heading h2 {
+  margin: 1rem;
+  text-align: center;
+  color: black;
+  font-size: 2rem;
+}
+.tasks ul li {
+  margin: 15px 10px 15px 10%;
+  font-size: 1.6rem;
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+  color: #003e4f;
+}
+ul li button {
+  margin-bottom: 10px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: 10%;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all ease 0.1s;
+}
+ul li button:hover {
+  opacity: 70%;
+  border: 2px solid #003e4f;
+}
